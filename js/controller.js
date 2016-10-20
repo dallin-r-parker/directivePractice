@@ -1,4 +1,4 @@
-angular.module('myApp').controller('mainCtrl', function($scope, mainCtrl) {
+angular.module('myApp').controller('mainCtrl', function($scope, mainService) {
 
       $scope.test = 'Dallin';
 });

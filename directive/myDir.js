@@ -3,7 +3,7 @@ angular.module('myApp')
 
     return {
       restrict: 'E',
-      templateUrl: './directive/myDirTmpl.html',
+      templateUrl: 'directive/myDirTmpl.html',
       scope: {
       },
       link: function(scope, element, attribute) {
